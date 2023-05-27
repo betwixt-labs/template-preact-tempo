@@ -1,0 +1,11 @@
+{
+	"include": ["./greeter.bop"],
+	"exclude": ["node_modules", "dist"],
+	"generators": [
+		{
+			"alias": "ts",
+			"outFile": "./src/services.gen.ts",
+            "services": "client"
+		}
+	]
+}

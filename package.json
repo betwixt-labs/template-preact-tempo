@@ -1,0 +1,23 @@
+{
+	"name": "template-browser-tempo",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "bebopc && parcel serve ./src/index.html",
+		"build": "bebopc && parcel build ./src/index.html"
+	},
+	"devDependencies": {
+		"bebop-tools": "^2.7.0",
+		"parcel": "^2.9.0",
+		"process": "^0.11.10",
+		"typescript": "^5.0.4"
+	},
+	"dependencies": {
+		"@tempojs/client": "^0.0.1",
+		"bebop": "^2.7.0",
+		"preact": "^10.15.0"
+	},
+	"alias": {
+		"preact/jsx-dev-runtime": "preact/jsx-runtime"
+	}
+}
