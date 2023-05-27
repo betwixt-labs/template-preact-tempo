@@ -1,5 +1,7 @@
 # Template: preact-tempo
 
+[![Run on Repl.it](https://replit.com/badge/github/betwixt-labs/template-preact-tempo)](https://replit.com/new/github/betwixt-labs/template-preact-tempo)
+
 This template demonstrates using the [`Tempo`](https://github.com/betwixt-labs/tempo) remote procedure call framework to add real-time, end-to-end typesafe APIs to a [`Preact`](https://preactjs.com) application.
 
 [`App.tsx`](https://github.com/betwixt-labs/template-preact-tempo/blob/main/src/App.tsx) is the primary content of the app. It is configured to talk to a pre-hosted `greeter` service, however, you can change the URL to point to your own service by using the [Node.js template](https://github.com/betwixt-labs/template-nodejs-tempo-server).

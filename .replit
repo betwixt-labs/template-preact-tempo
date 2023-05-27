@@ -1,0 +1,3 @@
+onBoot = "yarn install"
+language = "typescript"
+run = "yarn dev"
