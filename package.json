@@ -7,14 +7,14 @@
 		"build": "bebopc && parcel build ./src/index.html"
 	},
 	"devDependencies": {
-		"bebop-tools": "^2.7.0",
+		"bebop-tools": "^2.7.1",
 		"parcel": "^2.9.0",
 		"process": "^0.11.10",
 		"typescript": "^5.0.4"
 	},
 	"dependencies": {
 		"@tempojs/client": "^0.0.2",
-		"bebop": "^2.7.0",
+		"bebop": "^2.7.1",
 		"preact": "^10.15.0"
 	},
 	"alias": {
