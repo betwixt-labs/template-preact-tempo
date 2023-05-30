@@ -13,7 +13,7 @@
 		"typescript": "^5.0.4"
 	},
 	"dependencies": {
-		"@tempojs/client": "^0.0.1",
+		"@tempojs/client": "^0.0.2",
 		"bebop": "^2.7.0",
 		"preact": "^10.15.0"
 	},
