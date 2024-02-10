@@ -1,6 +1,6 @@
 import { Component, h } from "preact";
 import { TempoChannel } from "@tempojs/client";
-import { GreeterClient, IHelloResponse } from "./services.gen";
+import { GreeterClient, HelloResponse, IHelloResponse } from "./services.gen";
 
 interface LogViewerState {
   logs: (IHelloResponse | string)[];
@@ -76,7 +76,7 @@ class LogViewer extends Component<{}, LogViewerState> {
         if (typeof arg === "string") {
           return arg;
         } else {
-          return JSON.stringify(arg);
+          return HelloResponse.encodeToJSON(arg);
         }
       })
       .join(" ");
